@@ -15,25 +15,16 @@
             background-size: cover;
             color: black;
             background-image: url(https://media.suara.com/pictures/653x366/2022/09/07/28312-shell-spbu-shell-bensin-shell-ilustrasi-spbu-shell.jpg);
-
-
-
         }
 
         #container {
             width: 55%;
-
             margin: 50px auto;
             background-color: rgba(25, 0, 0, 0.8);
-            /* Warna latar belakang kontainer */
             padding: 20px;
             border-radius: 8px;
-            /* Sudut border */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            /* Efek bayangan */
             text-align: center;
-
-            /* Konten berada di tengah */
         }
 
         h2 {
