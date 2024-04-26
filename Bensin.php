@@ -11,7 +11,7 @@
             font-family: Arial, sans-serif;
             background-size: cover;
             color: black;
-            background-image: url(https://media.suara.com/pictures/653x366/2022/09/07/28312-shell-spbu-shell-bensin-shell-ilustrasi-spbu-shell.jpg);
+            background-image: url(https://pict-a.sindonews.net/dyn/850/pena/news/2024/03/04/211/1333935/lowongan-kerja-terbaru-shell-untuk-penempatan-di-jakarta-ini-jurusan-yang-dibutuhkan-oto.jpg);
         }
 
         #container {
@@ -19,7 +19,7 @@
             margin: 50px auto;
             background-color: rgba(25, 0, 0, 0.8);
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
