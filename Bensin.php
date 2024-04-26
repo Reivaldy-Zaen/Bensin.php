@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pembelian Bahan Bakar</title>
@@ -76,9 +74,10 @@
             text-align: center;
             padding: 10px;
             border: 1px solid #ccc;
-            border-radius: 10px;
+            border-radius: 50px;
             background-color: #fff;
             color: #000;
+            
         }
 
         @media screen and (max-width: 600px) {
@@ -91,6 +90,26 @@
                 font-size: 24px;
             }
         }
+        @media print {
+            body {
+                visibility: hidden;
+            }
+
+            #container,
+            #container * {
+                visibility: visible;
+            }
+
+            form,
+            label,
+            select,
+            input,
+            button {
+                display: none !important;
+            }
+        }
+
+
     </style>
 </head>
 
@@ -215,9 +234,6 @@
             }
         }
         ?>
-
-
-
         <script>
             function printTransaksi() {
                 window.print();
